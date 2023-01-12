@@ -1,9 +1,7 @@
 @media screen and (min-width: 640px){
-    content{
-        max-width: 95%;
-    }
+
     header, footer{
-        max-width: 95%;
+        border-radius: 10px;
 
     }
 }
