@@ -1,0 +1,9 @@
+@media screen and (min-width: 1024px){
+
+    main{    
+        display:grid;
+        grid-template-areas: "s1 s2 s3";
+        gap:10px;
+        
+    }
+}

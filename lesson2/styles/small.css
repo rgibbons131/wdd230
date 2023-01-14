@@ -2,30 +2,56 @@
 #content{
     padding-top: 3em;
     margin: 0 auto;
-    width: 880px;
+    width: 95%;
     max-width: 95%;
 }
 body{
     font-family: 'Lato', sans-serif;
     background-color: #a8e2e6;
-    max-width: 95%;
+    max-width:fit-content;    
+}
+
+main{    
+    display:grid;
+    grid-template-areas: "s1"
+                         "s2"
+                         "s3";
+    gap:10px;
     
 }
 
 header{
-    display:flex;
     align-items:center;
     background-color: #537b80;
     color:white;
     border:2px black solid;
     border-radius: 20px;
-    padding: 1rem;
+    padding: .5rem;
+}
+header h1{
+    font-size: 4vw;
+}
+header h2{
+    font-size: 3vw;
 }
 
-header img{
+.section{
+    border: solid 2px black;
+    border-radius:15px;
+    text-align: center;
+}
+
+.section h3{
+    font-size:3vw;
+}
+
+.section p{
+    font-size:2vw;
+}
+
+img{
     margin: 1rem;
-    height: 160px;
-    width:160px;
+    width: 80%;
     border: 2px black solid;
 }
 
@@ -33,15 +59,20 @@ header h1{
     text-align: center;
 }
 
-header div:nth-child(2){
-    width:100%;
-}
-
-main h2{
+h2{
     text-align: center;
 }
+#alignment{
+    grid-area: s1;
+}
 
+#color{
+    grid-area:s2;
+}
 
+#emphasis{
+    grid-area:s3;
+}
 footer{
     text-align: center;
     align-items:center;
@@ -50,5 +81,4 @@ footer{
     border:2px black solid;
     border-radius: 20px;
     padding: 1rem;
-    max-width: 95%;
 }
