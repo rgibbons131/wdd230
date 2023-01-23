@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mukta&display=swap');
+
+#content{
+    font-family: 'Mukta', sans-serif;
+    background-color: #E3E0DE;
+}
+
+#content h1,h2,h3{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-color: #033123;
+}
+
+footer{
+    background-color: #033123;
+    text-align: center;
+    color:#E3E0DE;
+    padding: 20px;
+}
+
+nav{
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    display:flex;
+    flex-direction:column;
+    padding: 30px;
+}
+
+nav a{
+    font-size: 1.5rem;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #E3E0DE;
+    margin-top: 15px;
+    height: 50px;
+    width:200px;
+    text-decoration: none;
+    border: 3px solid #22201C;
+    color:black;
+
+}
+
+nav a:hover{
+background-color: #F7BF50;
+}
+
+#current{background-color: #F7BF50;
+}
+
+#logo{
+    height:auto;
+    width: 80px;
+    background-color: #033123;
+    margin:0 auto;
+}
+
+main{
+    background-color: #E3E0DE;
+    margin-bottom: 30px; 
+}
+
+main h2{
+    padding-left: 30px;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    margin:0 auto;
+    padding: 20px;
+}
+
+p{
+    margin:0 auto;
+    padding: 10px;
+}
+
+.comment {
+    color:#E3E0DE;
+    background-color: #462820;
+    border-radius:30px;
+    margin:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
