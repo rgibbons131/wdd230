@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mukta&display=swap');
+
+#content{
+    font-family: 'Mukta', sans-serif;
+    background-color: #E3E0DE;
+}
+
+#content h1,h2,h3{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-color: #033123;
+    align-items: center;
+  font-family: 'Inter', sans-serif;
+  display:flex;
+  text-align: center;
+  padding: 30px;
+}
+
+header h1{
+  font-size: 1.5rem;
+  color:#E3E0DE;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+footer{
+    background-color: #033123;
+    text-align: center;
+    color:#E3E0DE;
+    padding: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color:#E3E0DE;
+}
+
+nav{
+  background-color: #033123;
+  padding: 30px;
+  padding-top: 0px;
+}
+
+nav a{
+    font-size: 1.5rem;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #E3E0DE;
+    margin-top: 15px;
+    height: 50px;
+    width:125px;
+    text-decoration: none;
+    border: 3px solid #22201C;
+    color:black;
+
+}
+
+nav ul{    
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  display:flex;
+  flex-direction:column;
+  margin-top: 0;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav a:hover{
+background-color: #F7BF50;
+}
+
+#current{background-color: #F7BF50;
+}
+
+#logo{
+    height:auto;
+    width: 80px;
+    background-color: #033123;
+    margin:0 auto;
+}
+
+main{
+    background-color: #E3E0DE;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+main h2{
+    padding-left: 30px;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    margin:0 auto;
+    padding: 20px;
+}
+
+p{
+    margin:0 auto;
+    padding: 10px;
+}
+
+.comment {
+    color:#E3E0DE;
+    background-color: #462820;
+    border-radius:30px;
+    margin:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#headerexample{
+    background-color: #033123;
+    color:#E3E0DE;
+}
+#hamburger-menu{
+    background-color:#033123;  
+    font-size: 2rem;
+    border: 0;
+  }
+  
+  #navbar{
+    display: none;
+  }
+  
+  #menu-open{
+    display: none;
+    color: #E3E0DE;
+  }
+  
+  #menu-closed{
+    color: #E3E0DE;
+    display: inline;
+  }
+  
+  #navbar.menu-active{
+    display: flex;
+  }
+  
+  #menu-open.menu-active{
+    display: inline;
+  }
+  
+  #menu-closed.menu-active{
+    display: none;
+  }
+
+/* Discover page */
