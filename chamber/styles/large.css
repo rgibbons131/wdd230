@@ -30,4 +30,26 @@
       #hamburger-menu{
         display: none;
       }
+      /* index page */
+      #index-main {
+        display:grid;
+        grid-template-areas: "i2 i1 i1 i5"
+                             "i3 i1 i1 i5"
+                             "i6 i4 i4 i5";
+        gap: 10px;
+      }
+      #index-main .hero{
+        height:100%;
+      }
+      #index-main .spotlights{
+        flex-direction: column;
+
+      }
+      #index-main .spotlight3{
+        display:block;
+
+      }
+      #index-main .join{
+        display:block;
+      }
     }

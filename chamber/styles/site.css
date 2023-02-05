@@ -157,4 +157,72 @@ p{
     display: none;
   }
 
-/* Discover page */
+/* index page */
+#index-main {
+  display:grid;
+  grid-template-areas: "i1"
+                       "i2"
+                       "i3"
+                       "i4"
+                       "i5";
+  gap: 10px;
+}
+#index-main .hero{
+  grid-area: i1;
+  height: 150px;
+  background-color: lightgray;
+  border: 1px solid #22201C;
+
+}
+#index-main .event{
+  grid-area: i2;
+  height: 150px;
+  background-color: lightgray;
+  border: 1px solid #22201C;
+}
+#index-main .weather{
+  grid-area: i3;
+  height: 150px;
+  background-color: lightgray;
+  border: 1px solid #22201C;
+}
+#index-main .news-release{
+  grid-area: i4;
+  height: 150px;
+  background-color: lightgray;
+  border: 1px solid #22201C;
+}
+#index-main .spotlights{
+  grid-area:i5;
+  background-color: lightgray;
+  border: 1px solid #22201C;
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+}
+#index-main .spotlight1{
+  height: 125px;
+  background-color: lightgray;
+  border: 1px solid #22201C;
+
+}
+#index-main .spotlight2{
+  height: 125px;
+  background-color: lightgray;
+  border: 1px solid #22201C;
+
+}
+#index-main .spotlight3{
+  height: 125px;
+  background-color: lightgray;
+  border: 1px solid #22201C;
+  display:none;
+
+}
+#index-main .join{
+  grid-area:i6;
+  height: 150px;
+  background-color: lightgray;
+  border: 1px solid #22201C;
+  display:none;
+}
