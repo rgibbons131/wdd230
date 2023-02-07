@@ -39,6 +39,11 @@
         gap: 10px;
       }
       #index-main .hero{
+        height: 100%;
+        width:100%;
+        overflow: hidden;
+      }
+      #index-main .hero img{
         height:100%;
       }
       #index-main .spotlights{

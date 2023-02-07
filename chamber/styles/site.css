@@ -172,6 +172,15 @@ p{
   height: 150px;
   background-color: lightgray;
   border: 1px solid #22201C;
+  overflow: hidden;
+  object-fit: cover;
+
+}
+#index-main .hero img{
+  grid-area: i1;
+  height: 100%;
+  background-color: lightgray;
+
 
 }
 #index-main .event{
@@ -179,12 +188,14 @@ p{
   height: 150px;
   background-color: lightgray;
   border: 1px solid #22201C;
+  min-width: 100%;
 }
 #index-main .weather{
   grid-area: i3;
   height: 150px;
   background-color: lightgray;
   border: 1px solid #22201C;
+  min-width: 100%;
 }
 #index-main .news-release{
   grid-area: i4;
@@ -225,4 +236,5 @@ p{
   background-color: lightgray;
   border: 1px solid #22201C;
   display:none;
+  min-width: 100%;
 }
