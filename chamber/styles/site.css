@@ -167,6 +167,9 @@ p{
                        "i5";
   gap: 10px;
 }
+#index-main h2{
+  padding-left: 0px;
+}
 #index-main .hero{
   grid-area: i1;
   height: 150px;
@@ -174,34 +177,53 @@ p{
   border: 1px solid #22201C;
   overflow: hidden;
   object-fit: cover;
+  position: relative;
 
 }
 #index-main .hero img{
   grid-area: i1;
   height: 100%;
   background-color: lightgray;
-
-
+  object-fit: cover;
+}
+#index-main .hero h2{
+  position: absolute;
+  top: 25px;
+  color: #E3E0DE;
+  background-color: #462820;
+  padding: 10px;
+  border-radius:0px 5px 5px 0px;
+}
+#hero-join{
+  position: absolute;
+  bottom: 20px;
+  right:50px;
+  font-size: 3rem;
 }
 #index-main .event{
   grid-area: i2;
-  height: 150px;
+  text-align: center;
   background-color: lightgray;
   border: 1px solid #22201C;
   min-width: 100%;
 }
 #index-main .weather{
   grid-area: i3;
-  height: 150px;
+  display: flex;
+  flex-direction: column;
   background-color: lightgray;
   border: 1px solid #22201C;
   min-width: 100%;
+  align-items: center;
 }
 #index-main .news-release{
   grid-area: i4;
-  height: 150px;
   background-color: lightgray;
   border: 1px solid #22201C;
+}
+#index-main .news-release h2{
+  text-align: center;
+  margin-bottom: 10px;
 }
 #index-main .spotlights{
   grid-area:i5;
@@ -209,32 +231,40 @@ p{
   border: 1px solid #22201C;
   display:flex;
   flex-direction: column;
-  padding: 20px;
+  align-items: center;
+
 }
 #index-main .spotlight1{
-  height: 125px;
+  text-align: center;
   background-color: lightgray;
-  border: 1px solid #22201C;
+  margin: 20px;
 
 }
 #index-main .spotlight2{
-  height: 125px;
+  text-align: center;
   background-color: lightgray;
-  border: 1px solid #22201C;
+  margin: 20px;
 
 }
 #index-main .spotlight3{
-  height: 125px;
+  text-align: center;
   background-color: lightgray;
-  border: 1px solid #22201C;
   display:none;
+  margin: 20px;
 
 }
 #index-main .join{
   grid-area:i6;
-  height: 150px;
+  text-align: center;
   background-color: lightgray;
   border: 1px solid #22201C;
   display:none;
   min-width: 100%;
+}
+.join-us{
+  background-color: #462820;
+  color: #E3E0DE;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
