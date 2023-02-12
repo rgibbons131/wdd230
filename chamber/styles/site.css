@@ -199,7 +199,8 @@ text-align: center;
 
 #index-main .hero img{
   grid-area: i1;
-  height: 100%;
+  /* height: 100%; */
+  width:100%;
   background-color: lightgray;
   object-fit: cover;
 }
@@ -216,6 +217,7 @@ text-align: center;
   bottom: 20px;
   right:50px;
   font-size: 3rem;
+  display: none;
 }
 #index-main .event{
   grid-area: i2;

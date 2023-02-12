@@ -49,6 +49,9 @@
     #index-main .hero img{
       width:100%;
     }
+    #hero-join{
+      display:block;
+    }
     #index-main .spotlights{
       height:100%;
         flex-direction: row;

@@ -7,6 +7,7 @@
     <meta name="description" content="Main page of the site plan">
     <script src="./scripts/footer.js" defer></script>
     <script src="./scripts/site.js" defer></script>
+    <script src="./scripts/windchill.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/site.css">
     <link rel="stylesheet" href="./styles/tablet.css">
@@ -17,7 +18,8 @@
     <div id="content">
     <div id="top">
     <header>
-        <img src="./images/Farmington_Chamber_of_Comerce_logos.jpeg" alt="Chamber of Comerce logo">
+        
+        <img src="./images/Farmington_Chamber_of_Comerce_logos.webp" alt="Chamber of Comerce logo">
         <h1>Farmington Chamber of Comerce</h1>
         <button id="hamburger-menu">
             <span id="menu-closed">≡</span>
@@ -38,8 +40,13 @@
     </div>
     <main>
         <div id="index-main">
-            <div class="hero"><img src="images/hero.png" alt="Hero Image"><h2 class="hero-text">Welcome to the Farmington CoC!</h2><button class="join-us" id="hero-join">Join Us!</button></div>
-            <div class="event"><h2>Event</h2><p>4th of July parade in Febuary! Come pretend you're warm! Febuary 24th, 10am - 4pm</p></div>
+            <div class="hero"><picture>
+                <source media="(max-width: 680px)" srcset="./images/small.jpg" />
+                <source media="(max-width: 900px)" srcset="./images/medium.jpg" />
+                <img src="./images/large.jpg" alt="Hero Image" />
+              </picture><h2 class="hero-text">Welcome to the Farmington CoC!</h2><button class="join-us" id="hero-join">Join Us!</button></div>
+            <!-- <img src="images/hero.png" alt="Hero Image"> -->
+              <div class="event"><h2>Event</h2><p>4th of July parade in Febuary! Come pretend you're warm! Febuary 24th, 10am - 4pm</p></div>
             <div class="weather"><h2>Weather</h2><img src="images/weather.png" alt="weather icon"><div><p id="temperature">Temp:? degrees</p><p id="wind">Wind:? mph</p><p id="wind-chill">Wind Chill: n/a</p></div></div>
             <div class="news-release"><h2>News Release</h2><p>Breaking news! Local man has head stuck in fence. No one knows how he got it there. He woke up from a long night of polka to find his head stuck in a rather small hole in a neighborhood fence. After long consideration he has come to the decision that he will no longer attend polka night.</p></div>
             <div class="spotlights">
