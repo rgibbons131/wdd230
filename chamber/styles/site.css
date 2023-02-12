@@ -157,7 +157,14 @@ p{
     display: none;
   }
 
+  .hidden {
+    display:none;
+  }
+
 /* index page */
+#top{
+  position:relative;
+}
 #index-main {
   display:grid;
   grid-template-areas: "i1"
@@ -180,6 +187,16 @@ p{
   position: relative;
 
 }
+#meet-greet{
+background-color: #462820;
+color:#E3E0DE;
+position:absolute;
+padding:5px 10px;
+bottom:0px;
+width:100%;
+text-align: center;
+}
+
 #index-main .hero img{
   grid-area: i1;
   height: 100%;
