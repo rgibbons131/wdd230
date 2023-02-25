@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./styles/site.css">
     <link rel="stylesheet" href="./styles/tablet.css">
     <link rel="stylesheet" href="./styles/large.css">
-    <title>FCOC | Discover</title>
+    <title>FCOC | Join</title>
 </head>
 <body>
     <div id="content">
@@ -29,9 +29,9 @@
 
         <ul id="navbar">
             
-            <li><a id="current" href="./discover.html">Discover</a></li>
+            <li><a href="./discover.html">Discover</a></li>
             <li><a href="./index.html">Directory</a></li>
-            <li><a href="./join.html">Join</a></li>
+            <li><a id="current" href="./join.html">Join</a></li>
             <li><a href="./index.html">Contact</a></li>
             <li><a target="_blank" href="https://facebook.com/"><img class="social_link" src="images/f_logo_RGB-Blue_58.png" alt="Facebook Logo"></a></li>
             <li><a target="_blank" href="https://instagram.com/"><img class="social_link" src="images/Instagram_social_image.png" alt="Facebook Logo"></a></li>
@@ -39,24 +39,49 @@
         </nav>
     </div>
     <main>
-        <div id="discover-main">
-            <img class="discover_img" src="images/placeholder.png" data-src="images/welcome.jpg" alt="Welcome Sign">
-            <h2>Welcome!</h2>
-            <p class="comment">Farmington New Mexico is a place! We have people that live here as well as some local buisnesses.</p>
-            <img class="discover_img" src="images/placeholder.png" data-src="images/downtown.webp" alt="Downtown">
-            <h2>Population</h2>
-            <p class="comment">We have a population of about 46,000 people!</p>
-            <img class="discover_img" src="images/placeholder.png" data-src="images/bluffs.webp" alt="bluffs">
-            <h2>Beautiful Outdoors</h2>
-            <p class="comment">Go to Farmington and promptly leave it to go hike in any of these nearby locations!</p>
-            <img class="discover_img" src="images/placeholder.png" data-src="images/temple.jfif" alt="bluffs">
-            <h2>Temple, coming soon!</h2>
-            <p class="comment">The Church of Jesus Christ of Latter-Day Saints has broken ground on a temple site!</p>
-            <img class="discover_img" src="images/placeholder.png" data-src="images/river.jpg" alt="bluffs">
-            <h2>Riverside walk</h2>
-            <p class="comment">Feel free to go on the riverwalk for any romantic dates this valentine season!</p>
-            <p class="comment">Days since last visit: <span id="last_visit"></span></p>
-        </div>
+        <form id="joinform" method="GET" action="./thankyou.html">
+            <div class="textbox">
+                <label for="firstname">First Name
+                <input type="text" name="firstname" placeholder="John" id="firstname" required></label>
+            </div>
+            <div class="textbox">
+                <label for="lastname">Last Name
+                <input type="text" name="lastname" placeholder="JacobJingleHimerSchmidt" id="lastname" required></label>
+            </div>
+            <div class="textbox">
+                <label for="title">Buisness Position Title
+                <input type="text" name="title" placeholder="President" id="title" pattern="[^0-9]+" /></label>
+            </div>
+            <div class="textbox">
+                <label for="email">email
+                <input type="email" name="eamil" placeholder="email@gmail.com" id="email" required></label>
+            </div>
+            <div class="textbox">
+                <label for="phone">Cell Phone
+                <input type="tel" name="phone" placeholder="1234567890" id="phone"></label>
+            </div>
+            <div class="textbox">
+                <label for="bname">Buisness Name
+                <input type="text" name="bname" placeholder="Jonathans Bakery" id="bname" required></label>
+            </div>
+            <div class="radio">
+                <p>Buisness level</p>
+                <label for="np">
+                <input type="radio" name="np" value="np" id="np" required>Non Prophet</label><br/>
+                <label for="gold">
+                <input type="radio" name="gold" value="gold" id="gold">Gold</label><br/>
+                <label for="silver">
+                <input type="radio" name="silver" value="silver" id="silver">Silver</label><br/>
+                <label for="bronze">
+                <input type="radio" name="bronze" value="bronze" id="bronze">Bronze</label><br/>
+            </div>
+            <div class="textbox">
+                <label for="description">Buisness Description
+                <textarea type="text" name="description" rows="7" columns="100" ></textarea></label>
+            </div>
+            <input type="hidden" id="date" name="date" value="">
+            <button class="join-us" type="submit" name="submit">Join the chamber!</button>
+        </form>
     </main>
     <footer>
         <div class="footer-content">

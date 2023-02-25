@@ -296,3 +296,32 @@ text-align: center;
 .discover_img{
   max-width: 100%;
 }
+
+/* Join page */
+#joinform input{
+  display:block;
+  margin-bottom: 10px;
+}
+#joinform label{
+  display:block;
+}
+#joinform .radio input{
+  margin-bottom: 44px;
+  display:inline-block;
+
+}
+#joinform .radio label{
+  display:inline-flex;
+}
+#joinform textarea{
+  display:block;
+  margin-bottom: 10px;
+}
+.radio{
+  margin-top: 22px;
+}
+.radio p{
+  font-size: 1em;
+  margin-bottom: 22px;
+  padding-left: 0px;
+}

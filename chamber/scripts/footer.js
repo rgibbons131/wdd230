@@ -7,3 +7,6 @@ document.querySelector('#currentyear').textContent = today.getFullYear();
 // This sets the last modified area to the correct last modified
 document.querySelector("#lastupdated").textContent = document.lastModified;
 
+if ( document.URL.includes("join.html") ) {
+    document.querySelector("#date").value = today;
+}
