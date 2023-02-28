@@ -41,31 +41,31 @@
     <main>
         <form id="joinform" method="GET" action="./thankyou.html">
             <div class="textbox">
-                <label for="firstname">First Name
+                <label for="firstname">First Name *
                 <input type="text" name="firstname" placeholder="John" id="firstname" required></label>
             </div>
             <div class="textbox">
-                <label for="lastname">Last Name
+                <label for="lastname">Last Name *
                 <input type="text" name="lastname" placeholder="JacobJingleHimerSchmidt" id="lastname" required></label>
             </div>
             <div class="textbox">
                 <label for="title">Buisness Position Title
-                <input type="text" name="title" placeholder="President" id="title" pattern="[^0-9]+" /></label>
+                <input type="text" name="title" placeholder="President" id="title" pattern="[A-Za-z\s\-]{7,}" /></label>
             </div>
             <div class="textbox">
-                <label for="email">email
+                <label for="email">email *
                 <input type="email" name="eamil" placeholder="email@gmail.com" id="email" required></label>
             </div>
             <div class="textbox">
-                <label for="phone">Cell Phone
+                <label for="phone">Cell Phone *
                 <input type="tel" name="phone" placeholder="1234567890" id="phone"></label>
             </div>
             <div class="textbox">
-                <label for="bname">Buisness Name
+                <label for="bname">Buisness Name *
                 <input type="text" name="bname" placeholder="Jonathans Bakery" id="bname" required></label>
             </div>
             <div class="radio">
-                <p>Buisness level</p>
+                <p>Buisness level *</p>
                 <label for="np">
                 <input type="radio" name="np" value="np" id="np" required>Non Prophet</label><br/>
                 <label for="gold">
@@ -77,7 +77,7 @@
             </div>
             <div class="textbox">
                 <label for="description">Buisness Description
-                <textarea type="text" name="description" rows="7" columns="100" ></textarea></label>
+                <textarea name="description" rows="7" columns="100" ></textarea></label>
             </div>
             <input type="hidden" id="date" name="date" value="">
             <button class="join-us" type="submit" name="submit">Join the chamber!</button>
