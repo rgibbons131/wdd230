@@ -1,0 +1,17 @@
+table {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+thead tr{
+    background-color: tan;
+}
+thead tr:nth-child(2) th:nth-child(1){
+    background-color: tan;
+    border-top: 1px tan solid;
+}
+thead tr:nth-child(2){
+    background-color: brown;
+}
+tr{
+    background-color: beige;
+}
