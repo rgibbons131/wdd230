@@ -1,9 +1,14 @@
 table {
     border: 1px black solid;
     border-collapse: collapse;
+    text-align: center;
+    caption-side: bottom;
 }
 thead tr{
     background-color: tan;
+}
+thead th{
+    padding:2px 4px;
 }
 thead tr:nth-child(2) th:nth-child(1){
     background-color: tan;
@@ -14,4 +19,15 @@ thead tr:nth-child(2){
 }
 tr{
     background-color: beige;
+}
+tbody tr:nth-child(2){
+    background-color: lightblue;
+
+}
+tbody td{
+    border:solid black 1px;
+    padding:2px 4px;
+}
+thead th{
+    border:solid black 1px;
 }
