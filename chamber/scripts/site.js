@@ -69,4 +69,5 @@ function fillLastVisit(){
     };
     localStorage.setItem("lastVisit", today.toLocaleDateString());
 }
-fillLastVisit()
+var fileName = location.pathname.split("/").slice(-1)
+if(fileName=="discover.html"){fillLastVisit()};

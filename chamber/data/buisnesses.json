@@ -1,0 +1,94 @@
+{
+    "businesses": [
+        {
+            "name":"Green Leaf",
+            "streetAddress":"123 Brown Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"208-356-9999",
+            "websiteURL":"http://www.foo.com",
+            "imageURL":"./images/fakelogo1.jpg",
+            "membershipLevel":"gold",
+            "imageAlt": "Green Leaf"
+        },
+        {
+            "name":"Silver Smittys",
+            "streetAddress":"124 Main Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"208-356-9998",
+            "websiteURL":"http://www.foo.com",
+            "imageURL":"./images/fakelogo2.jpg",
+            "membershipLevel":"silver",
+            "imageAlt": "Silver Smittys"
+        },
+        {
+            "name":"Fast Banana",
+            "streetAddress":"124 Main Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"208-356-9998",
+            "websiteURL":"http://www.foo.com",
+            "imageURL":"./images/fakelogo3.png",
+            "membershipLevel":"silver",
+            "imageAlt": "Fast Banana"
+        },
+        {
+            "name":"ABC Housing",
+            "streetAddress":"124 Main Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"208-356-9998",
+            "websiteURL":"http://www.foo.com",
+            "imageURL":"./images/fakelogo4.png",
+            "membershipLevel":"Gold",
+            "imageAlt": "ABC Housing"
+        },
+        {
+            "name":"Your Brand",
+            "streetAddress":"124 Main Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"208-356-9998",
+            "websiteURL":"http://www.foo.com",
+            "imageURL":"./images/fakelogo5.png",
+            "membershipLevel":"silver",
+            "imageAlt": "Your Brand"
+        },
+        {
+            "name":"Fakery",
+            "streetAddress":"124 Main Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"208-356-9998",
+            "websiteURL":"http://www.foo.com",
+            "imageURL":"./images/fakelogo6.png",
+            "membershipLevel":"bronze",
+            "imageAlt": "Fakery"
+        },
+        {
+            "name":"Company Name",
+            "streetAddress":"124 Main Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"208-356-9998",
+            "websiteURL":"http://www.foo.com",
+            "imageURL":"./images/fakelogo7.png",
+            "membershipLevel":"np",
+            "imageAlt": "Company Name"
+        },
+        {
+            "name":"Fake Globe",
+            "streetAddress":"124 Main Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"208-356-9998",
+            "websiteURL":"http://www.foo.com",
+            "imageURL":"./images/fakelogo8.jpg",
+            "membershipLevel":"silver",
+            "imageAlt": "Fake Globe"
+        },
+        {
+            "name":"Company",
+            "streetAddress":"124 Main Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"208-356-9998",
+            "websiteURL":"http://www.foo.com",
+            "imageURL":"./images/fakelogo9.jpg",
+            "membershipLevel":"gold",
+            "imageAlt": "Company"
+        }                
+    ]
+}

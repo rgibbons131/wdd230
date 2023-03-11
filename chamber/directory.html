@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn about Farmington">
+    <meta name="description" content="Directory">
     <script src="./scripts/footer.js" defer></script>
     <script src="./scripts/site.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/site.css">
     <link rel="stylesheet" href="./styles/tablet.css">
     <link rel="stylesheet" href="./styles/large.css">
-    <title>FCOC | Discover</title>
+    <script src="./scripts/cards.js" defer></script>
+    <title>FCOC | Directory</title>
 </head>
 <body>
     <div id="content">
@@ -29,34 +30,24 @@
 
         <ul id="navbar">
             
-            <li><a class="current" href="./discover.html">Discover</a></li>
+            <li><a href="./discover.html">Discover</a></li>
             <li><a href="./index.html">Directory</a></li>
             <li><a href="./join.html">Join</a></li>
-            <li><a href="./directory.html">Contact</a></li>
+            <li><a class="current" href="./directory.html">Contact</a></li>
             <li><a target="_blank" href="https://facebook.com/"><img class="social_link" src="images/f_logo_RGB-Blue_58.png" alt="Facebook Logo"></a></li>
             <li><a target="_blank" href="https://instagram.com/"><img class="social_link" src="images/Instagram_social_image.png" alt="Facebook Logo"></a></li>
         </ul>
         </nav>
     </div>
     <main>
-        <div id="discover-main">
-            <img class="discover_img" src="images/placeholder.png" data-src="images/welcome.jpg" alt="Welcome Sign">
-            <h2>Welcome!</h2>
-            <p class="comment">Farmington New Mexico is a place! We have people that live here as well as some local buisnesses.</p>
-            <img class="discover_img" src="images/placeholder.png" data-src="images/downtown.webp" alt="Downtown">
-            <h2>Population</h2>
-            <p class="comment">We have a population of about 46,000 people!</p>
-            <img class="discover_img" src="images/placeholder.png" data-src="images/bluffs.webp" alt="bluffs">
-            <h2>Beautiful Outdoors</h2>
-            <p class="comment">Go to Farmington and promptly leave it to go hike in any of these nearby locations!</p>
-            <img class="discover_img" src="images/placeholder.png" data-src="images/temple.jfif" alt="bluffs">
-            <h2>Temple, coming soon!</h2>
-            <p class="comment">The Church of Jesus Christ of Latter-Day Saints has broken ground on a temple site!</p>
-            <img class="discover_img" src="images/placeholder.png" data-src="images/river.jpg" alt="bluffs">
-            <h2>Riverside walk</h2>
-            <p class="comment">Feel free to go on the riverwalk for any romantic dates this valentine season!</p>
-            <p class="comment">Days since last visit: <span id="last_visit"></span></p>
+        <div id="content">
+        <div id="directory-selector">
+            <button class="current" id="grid-selector"><div>GRID</div>
+            <button id="list-selector"><div>LIST</div>
         </div>
+        <div class="cards" id="directory-info">
+        </div>
+    </div>
     </main>
     <footer>
         <div class="footer-content">
