@@ -295,9 +295,16 @@ text-align: center;
 /* Discover page */
 .discover_img{
   max-width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
 /* Join page */
+#joinform {
+  border:2px solid black ;
+  border-radius: 10px;
+  padding: 30px
+}
 #joinform input{
   display:block;
   margin-bottom: 10px;
@@ -324,4 +331,13 @@ text-align: center;
   font-size: 1em;
   margin-bottom: 22px;
   padding-left: 0px;
+}
+.join-main {
+  display:flex;
+  flex-direction: column;
+}
+.benefits {
+  border:2px solid black ;
+  border-radius: 10px;
+  padding: 30px
 }
