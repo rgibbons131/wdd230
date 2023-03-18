@@ -291,6 +291,10 @@ text-align: center;
   border-radius: 10px;
   padding: 5px 10px;
 }
+.join-us a{
+  color: #E3E0DE;
+  text-decoration: none;
+}
 
 /* Discover page */
 .discover_img{
