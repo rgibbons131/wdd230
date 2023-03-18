@@ -83,6 +83,10 @@
         grid-row: 2/3;
         grid-column: 1/2;
       }
+      .socials {
+        text-align: center;
+
+      }
       /* Join main */
       #joinform {
         width:400px;
