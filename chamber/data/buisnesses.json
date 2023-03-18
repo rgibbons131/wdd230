@@ -3,92 +3,101 @@
         {
             "name":"Green Leaf",
             "streetAddress":"123 Brown Street",
-            "cityStateZip":"Rexburg, ID 83440",
+            "cityStateZip":"Farmington, NM 87402",
             "phoneNumber":"208-356-9999",
-            "websiteURL":"http://www.foo.com",
+            "websiteURL":"http://www.greenleaf.com",
             "imageURL":"./images/fakelogo1.jpg",
             "membershipLevel":"gold",
-            "imageAlt": "Green Leaf"
+            "imageAlt": "Green Leaf",
+            "spotlight":"Green leaf incorporated has recently partnered with the state government to provide loans for solar pannels. Citizens can switch to green energy easier than ever before."
         },
         {
             "name":"Silver Smittys",
             "streetAddress":"124 Main Street",
-            "cityStateZip":"Rexburg, ID 83440",
+            "cityStateZip":"Farmington, NM 87402",
             "phoneNumber":"208-356-9998",
-            "websiteURL":"http://www.foo.com",
+            "websiteURL":"http://www.silversmittys.com",
             "imageURL":"./images/fakelogo2.jpg",
             "membershipLevel":"silver",
-            "imageAlt": "Silver Smittys"
+            "imageAlt": "Silver Smittys",
+            "spotlight":"Looking for a new wedding ring? Silver Smittys has a wide selection of rings and other jewelry. Stop by today and see what we have to offer."
         },
         {
             "name":"Fast Banana",
             "streetAddress":"124 Main Street",
-            "cityStateZip":"Rexburg, ID 83440",
+            "cityStateZip":"Farmington, NM 87402",
             "phoneNumber":"208-356-9998",
-            "websiteURL":"http://www.foo.com",
+            "websiteURL":"http://www.fastbanana.com",
             "imageURL":"./images/fakelogo3.png",
             "membershipLevel":"silver",
-            "imageAlt": "Fast Banana"
+            "imageAlt": "Fast Banana",
+            "spotlight":"Fast bananana offers the best selection of bananas, banana icecream, and banana memorabelia for a one stop banana extr"
         },
         {
             "name":"ABC Housing",
             "streetAddress":"124 Main Street",
-            "cityStateZip":"Rexburg, ID 83440",
+            "cityStateZip":"Farmington, NM 87402",
             "phoneNumber":"208-356-9998",
-            "websiteURL":"http://www.foo.com",
+            "websiteURL":"http://www.abchousing.com",
             "imageURL":"./images/fakelogo4.png",
             "membershipLevel":"Gold",
-            "imageAlt": "ABC Housing"
+            "imageAlt": "ABC Housing",
+            "spotlight":"Visit ABC housing to get free estimates on real estate agents, home loans, and more. We have the best prices in town."
         },
         {
             "name":"Your Brand",
             "streetAddress":"124 Main Street",
-            "cityStateZip":"Rexburg, ID 83440",
+            "cityStateZip":"Farmington, NM 87402",
             "phoneNumber":"208-356-9998",
-            "websiteURL":"http://www.foo.com",
+            "websiteURL":"http://www.yourbrand.com",
             "imageURL":"./images/fakelogo5.png",
             "membershipLevel":"silver",
-            "imageAlt": "Your Brand"
+            "imageAlt": "Your Brand",
+            "spotlight":"We make your website look sleek, profesional, and modern. Go with us if you want the best. After all, it's your brand."
         },
         {
             "name":"Fakery",
             "streetAddress":"124 Main Street",
-            "cityStateZip":"Rexburg, ID 83440",
+            "cityStateZip":"Farmington, NM 87402",
             "phoneNumber":"208-356-9998",
-            "websiteURL":"http://www.foo.com",
+            "websiteURL":"http://www.fakery.com",
             "imageURL":"./images/fakelogo6.png",
             "membershipLevel":"bronze",
-            "imageAlt": "Fakery"
+            "imageAlt": "Fakery",
+            "spotlight":""
         },
         {
             "name":"Company Name",
             "streetAddress":"124 Main Street",
-            "cityStateZip":"Rexburg, ID 83440",
+            "cityStateZip":"Farmington, NM 87402",
             "phoneNumber":"208-356-9998",
-            "websiteURL":"http://www.foo.com",
+            "websiteURL":"http://www.compname.com",
             "imageURL":"./images/fakelogo7.png",
             "membershipLevel":"np",
-            "imageAlt": "Company Name"
+            "imageAlt": "Company Name",
+            "spotlight":""
         },
         {
             "name":"Fake Globe",
             "streetAddress":"124 Main Street",
-            "cityStateZip":"Rexburg, ID 83440",
+            "cityStateZip":"Farmington, NM 87402",
             "phoneNumber":"208-356-9998",
-            "websiteURL":"http://www.foo.com",
+            "websiteURL":"http://www.fakeglobe.com",
             "imageURL":"./images/fakelogo8.jpg",
             "membershipLevel":"silver",
-            "imageAlt": "Fake Globe"
+            "imageAlt": "Fake Globe",
+            "spotlight":"Fake glbobe has the best selection of fake globes in the area. We have a wide selection of fake globes, fake maps, and fake flags."
         },
         {
             "name":"Company",
             "streetAddress":"124 Main Street",
-            "cityStateZip":"Rexburg, ID 83440",
+            "cityStateZip":"Farmington, NM 87402",
             "phoneNumber":"208-356-9998",
-            "websiteURL":"http://www.foo.com",
+            "websiteURL":"http://www.company.com",
             "imageURL":"./images/fakelogo9.jpg",
             "membershipLevel":"gold",
-            "imageAlt": "Company"
+            "imageAlt": "Company",
+            "spotlight":"We are hiring her at Company. We have openings for developers, accountants, and more. Apply today."
         }                
     ]
 }
