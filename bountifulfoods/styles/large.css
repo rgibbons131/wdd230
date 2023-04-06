@@ -42,7 +42,7 @@
 
     .smoothie1 {
         float:none;
-        max-width: auto;
+        max-width: 100%;
         align-self: center;
     }
     
