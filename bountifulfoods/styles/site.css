@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Red+Hat+Display&display=swap');
+
+:root {
+    --emerald:#61B66F;
+    --salt:#F9F8F8;
+    --rasberry:#B74F6F;
+    --dark:#0E0013;
+}
+
+#content {
+    background-color: var(--salt);
+
+}
+
+h2 {
+    font-family: 'Marck Script', cursive;
+    color: var(--dark);
+    background-color: var(--emerald);
+    padding: 10px 10px 10px 30px;
+    margin: 10px;
+    margin-right: 20px;
+    border-radius: 2px 20px 2px 20px;
+}
+
+p {
+    font-family: 'Red Hat Display', sans-serif;
+    color: var(--dark);
+    padding: 5px;
+    margin: 10px;
+}
+
+img {
+    margin: 10px;
+    max-width: 95%;
+}
+
+a {
+    font-family: 'Red Hat Display', sans-serif;
+    color: var(--dark);
+    background-color: var(--rasberry);
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    padding:5px;
+    margin:10px;
+}
+
+a:hover{
+    background-color: var(--emerald);
+    color: var(--dark);
+}
+
+.current {
+    background-color: var(--emerald);
+    color: var(--dark);
+}
+
+.hero_grid{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hero {
+    position:absolute;
+    grid-row: 1/4;
+    z-index: 0;
+}
+
+.header {
+    position:relative;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+.order_call {
+    display:grid;
+    grid-template-rows: 1fr 1.25fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.order_desc {
+    font-size: 1.2em;
+    background-color: var(--emerald);
+    position:relative;
+    grid-row: 1/2;
+    z-index: 1;
+    border-radius: 2px 20px 2px 20px;
+}
+
+.strawberries {
+    position:absolute;
+    grid-row: 2/4;
+    z-index: 0;
+}
+
+.orderup {
+    position:relative;
+    grid-row: 3/4;
+    z-index: 1;
+    font-size: 1.5rem;
+    justify-self: right;
+    margin-right: 20px;
+
+}
+
