@@ -1,117 +1,268 @@
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Red+Hat+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Red+Hat+Display&display=swap");
 
 :root {
-    --emerald:#61B66F;
-    --salt:#F9F8F8;
-    --rasberry:#B74F6F;
-    --dark:#0E0013;
+  --emerald: #61b66f;
+  --salt: #f9f8f8;
+  --rasberry: #b74f6f;
+  --dark: #2a013b;
 }
 
 #content {
-    background-color: var(--salt);
-
+  background-color: var(--salt);
 }
 
 h2 {
-    font-family: 'Marck Script', cursive;
-    color: var(--dark);
-    background-color: var(--emerald);
-    padding: 10px 10px 10px 30px;
-    margin: 10px;
-    margin-right: 20px;
-    border-radius: 2px 20px 2px 20px;
+  font-family: "Marck Script", cursive;
+  color: var(--dark);
+  background-color: var(--emerald);
+  padding: 10px 10px 10px 30px;
+  margin: 10px;
+  margin-right: 20px;
+  border-radius: 2px 20px 2px 20px;
 }
 
 p {
-    font-family: 'Red Hat Display', sans-serif;
-    color: var(--dark);
-    padding: 5px;
-    margin: 10px;
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--dark);
+  padding: 5px;
+  margin: 10px;
 }
 
 img {
-    margin: 10px;
-    max-width: 95%;
+  margin: 10px;
+  max-width: 95%;
 }
 
 a {
-    font-family: 'Red Hat Display', sans-serif;
-    color: var(--dark);
-    background-color: var(--rasberry);
-    font-size: 2rem;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 5px;
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--salt);
+  background-color: var(--rasberry);
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+  margin-top: 0;
+  padding-top: 20px;
 }
 
 li {
-    list-style-type: none;
-    padding:5px;
-    margin:10px;
+  list-style-type: none;
+  padding: 5px;
+  margin: 10px;
 }
 
-a:hover{
-    background-color: var(--emerald);
-    color: var(--dark);
+a:hover {
+  background-color: var(--emerald);
+  color: var(--dark);
 }
 
 .current {
-    background-color: var(--emerald);
-    color: var(--dark);
+  background-color: var(--emerald);
+  color: var(--dark);
 }
 
-.hero_grid{
-    display:grid;
-    grid-template-rows: 1fr 1fr 1fr;
+.hero_grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .hero {
-    position:absolute;
-    grid-row: 1/4;
-    z-index: 0;
+  position: relative;
+  grid-row: 1/4;
+  z-index: 0;
 }
 
 .header {
-    position:relative;
-    grid-row: 1/2;
-    z-index: 1;
+  position: absolute;
+  grid-row: 1/2;
+  z-index: 1;
 }
 
 .order_call {
-    display:grid;
-    grid-template-rows: 1fr 1.25fr 1fr;
-    justify-items: center;
-    align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
-
 .order_desc {
-    font-size: 1.2em;
-    background-color: var(--emerald);
-    position:relative;
-    grid-row: 1/2;
-    z-index: 1;
-    border-radius: 2px 20px 2px 20px;
+  font-size: 1.2em;
+  background-color: var(--emerald);
+  border-radius: 2px 20px 2px 20px;
 }
 
 .strawberries {
-    position:absolute;
-    grid-row: 2/4;
-    z-index: 0;
+  max-width: 95%;
+  height: auto;
 }
 
 .orderup {
-    position:relative;
-    grid-row: 3/4;
-    z-index: 1;
-    font-size: 1.5rem;
-    justify-self: right;
-    margin-right: 20px;
-
+  position: absolute;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  top: 75%;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
+#weather {
+  margin-left:10px;
+  margin-right:10px;
+  gap: 10px;
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+
+.weathercard {
+  text-align: center;
+  background-color: var(--rasberry);
+  width: 200%;
+}
+
+.weathercard p {
+  color: var(--salt);
+}
+
+.weathercard h2{
+  padding: 10px 10px 10px 10px;
+  margin-right:10px;
+}
+
+.footer-content {
+  background-color: var(--emerald);
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.social_link {
+  width: 50px;
+  height: 50px;
+  background-color: var(--emerald);
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+/* Order page */
+
+#order-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#order-main h2 {
+  text-align: center;
+  min-width: 200px;
+  margin-top: 50px;
+  padding: 10px 10px 10px 10px;
+}
+
+#orderform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.fruits {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--dark);
+  padding: 5px;
+  margin: 10px;
+}
+
+label.instructions {
+    display:flex;
+    flex-direction: column;
+}
+
+.submit {
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--salt);
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 30px;
+  background-color: var(--rasberry);
+}
+
+.submit:hover {
+  color: var(--salt);
+  background-color: var(--dark);
+}
+
+/* About Us */
+
+#about-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-main h2 {
+  font-size: 2.5em;
+}
+
+#about-main p {
+    font-size: 1.5em;
+  }
+
+.philosophy {
+    width: 95%;
+}
+
+/* Thank you */
+
+#thankyou-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nutrifacts {
+    background-color: grey;
+    max-width: 75%;
+    color: var(--salt);
+    margin-bottom: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.nutrifacts p{
+    color: var(--salt);
+}

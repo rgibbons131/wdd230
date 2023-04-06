@@ -1,0 +1,54 @@
+@media screen and (min-width: 650px){
+
+
+    #weather {
+        display:grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: unset;
+      }
+    .weathercard {
+        width:auto;
+    }
+    /* order page */
+    #orderform {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 652px;
+
+    }
+
+    #order-main h2{
+        min-width: 400px;
+    }
+    
+    .formdesc {
+        max-width: 675px;
+    }
+
+/* About Us */
+.smoothie1 {
+    float:left;
+    max-width: 50%;
+}
+
+.smoothie2 {
+    float:right;
+    max-width: 50%;
+}
+
+.map {
+    max-width: 40%;
+}
+
+    }

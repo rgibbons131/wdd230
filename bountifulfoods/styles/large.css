@@ -1,0 +1,49 @@
+@media screen and (min-width: 900px){
+    #navbar {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero_grid{
+        margin-top: 67.6px;;
+        position:relative;
+        justify-content: center;
+    }
+    .hero {
+        align-self: center;
+    }
+    .header {
+        position:absolute;
+        top:-57.6px;
+    }
+
+    #weather {
+        max-width: 850px;
+        margin:auto;
+    }
+    /* order page */
+    .info{
+        flex-direction: row;
+    }
+
+    #order-main h2{
+        min-width: 600px;
+    }
+
+
+    /* about us */
+
+    .aboutus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .smoothie1 {
+        float:none;
+        max-width: auto;
+        align-self: center;
+    }
+    
+    }
