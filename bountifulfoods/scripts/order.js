@@ -24,7 +24,7 @@ document.getElementById("fruit3").innerHTML = fruit3;
 
 // load in the list from the JSON file with path "../JSON/fruit.json" usint async/await
 async function loadList(fruits1, fruits2, fruits3) {
-    const response = await fetch("../JSON/fruit.json");
+    const response = await fetch("./JSON/fruit.json");
     const fruitList = await response.json();
     let fruit1 = {};
     let fruit2 = {};
